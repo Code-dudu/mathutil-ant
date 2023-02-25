@@ -54,12 +54,12 @@ public class MathUtilityTest {
         //test case #2: test getf() with n = 5;
         //Expected result = 120; //hy vọng 5! = 120, xem máy có làm được hay ho???
         
-        Assert.assertEquals(120, MathUtility.getFactorial(6));
+        Assert.assertEquals(120, MathUtility.getFactorial(5));
         
         //test case #3 : test getF() with n = 6; expected = 720
-        Assert.assertEquals(720, MathUtility.getFactorial(7));
+        Assert.assertEquals(720, MathUtility.getFactorial(6));
         
         //test case #4 : test getF() with n = 4; expected = 24
-        Assert.assertEquals(24, MathUtility.getFactorial(6));
+        Assert.assertEquals(24, MathUtility.getFactorial(4));
     }
 }

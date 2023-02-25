@@ -32,7 +32,7 @@ public class MathUtility {
 
         //sống sót trên đoạn này, n từ 2..20 rồi!!!, for mà chơi
         long product = 1; //biến khởi động cho tích nhân dồn
-        for (int i = 2; i < n; i++) {
+        for (int i = 2; i <= n; i++) {
             product *= i;
 
             
